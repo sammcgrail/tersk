@@ -10,7 +10,7 @@
 # User.create(email: 'sagesagesagesage@gmail.com', password: 'password123')
 # User.create(email: 'testemail@gmail.com', password: 'thesecretpass')
 # User.create(email: 'anotheremail@gmail.com', password: 'impassword')
-#
+
 # Task.create(name: 'Get clothes', description: 'You have to go to the store and buy clothes', due_date: 'Friday')
 # Task.create(name: 'Get food', description: 'Go to grocery store and get food', due_date: 'Saturday')
 #
@@ -19,12 +19,10 @@
 #
 # Project.create(name: 'Errands for Mom', description: 'Includes errands to do for mom')
 # Project.create(name: 'Bio Thing', description: 'Includes homework and research stuff for school')
-
-# seeds for linking users to tasks and projects
-
-# ProjectMember.create(project_id: 1, user_id: 2)
+# #
+# # seeds for linking users to tasks and projects
+#
 # ProjectMember.create(project_id: 1, user_id: 1)
-# ProjectMember.create(project_id: 1, user_id: 3)
-# ProjectMember.create(project_id: 1, user_id: 4)
-# ProjectMember.create(project_id: 2, user_id: 5)
-# ProjectMember.create(project_id: 2, user_id: 4)
+# ProjectMember.create(project_id: 1, user_id: 2)
+# ProjectMember.create(project_id: 2, user_id: 3)
+# ProjectMember.create(project_id: 2, user_id: 2)
