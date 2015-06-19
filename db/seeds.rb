@@ -5,15 +5,26 @@
 #
 #   Person.create(first_name: 'Eric', last_name: 'Kelly')
 
-User.create(email: 'sagesagesagesage@gmail.com', password: 'password123')
-User.create(email: 'testemail@gmail.com', password: 'thesecretpass')
-User.create(email: 'anotheremail@gmail.com', password: 'impassword')
+# initial seeds
 
-Task.create(name: 'Get clothes', description: 'You have to go to the store and buy clothes', due_date: 'Friday')
-Task.create(name: 'Get food', description: 'Go to grocery store and get food', due_date: 'Saturday')
+# User.create(email: 'sagesagesagesage@gmail.com', password: 'password123')
+# User.create(email: 'testemail@gmail.com', password: 'thesecretpass')
+# User.create(email: 'anotheremail@gmail.com', password: 'impassword')
+#
+# Task.create(name: 'Get clothes', description: 'You have to go to the store and buy clothes', due_date: 'Friday')
+# Task.create(name: 'Get food', description: 'Go to grocery store and get food', due_date: 'Saturday')
+#
+# Task.create(name: 'Do bio research', description: 'You have to read a bio book', due_date: 'Sunday')
+# Task.create(name: 'Do bio homework', description: 'You gotta do the homeworks', due_date: 'Monday')
+#
+# Project.create(name: 'Errands for Mom', description: 'Includes errands to do for mom')
+# Project.create(name: 'Bio Thing', description: 'Includes homework and research stuff for school')
 
-Task.create(name: 'Do bio research', description: 'You have to read a bio book', due_date: 'Sunday')
-Task.create(name: 'Do bio homework', description: 'You gotta do the homeworks', due_date: 'Monday')
+# seeds for linking users to tasks and projects
 
-Project.create(name: 'Errands for Mom', description: 'Includes errands to do for mom')
-Project.create(name: 'Bio Thing', description: 'Includes homework and research stuff for school')
+# ProjectMember.create(project_id: 1, user_id: 2)
+# ProjectMember.create(project_id: 1, user_id: 1)
+# ProjectMember.create(project_id: 1, user_id: 3)
+# ProjectMember.create(project_id: 1, user_id: 4)
+# ProjectMember.create(project_id: 2, user_id: 5)
+# ProjectMember.create(project_id: 2, user_id: 4)
